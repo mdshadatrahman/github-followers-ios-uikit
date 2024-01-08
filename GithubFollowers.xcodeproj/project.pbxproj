@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5590A96C2B4C706000D0F855 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590A96B2B4C706000D0F855 /* Follower.swift */; };
 		5590A96E2B4C711D00D0F855 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590A96D2B4C711D00D0F855 /* User.swift */; };
+		5590A9712B4C759900D0F855 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590A9702B4C759900D0F855 /* NetworkManager.swift */; };
 		55C298772B4C086C00DEC316 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C298762B4C086C00DEC316 /* FollowerListVC.swift */; };
 		55C298792B4C0DDC00DEC316 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C298782B4C0DDC00DEC316 /* GFTitleLabel.swift */; };
 		55C2987B2B4C0F5100DEC316 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2987A2B4C0F5100DEC316 /* GFBodyLabel.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		5590A96B2B4C706000D0F855 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		5590A96D2B4C711D00D0F855 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5590A9702B4C759900D0F855 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		55C298762B4C086C00DEC316 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		55C298782B4C0DDC00DEC316 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		55C2987A2B4C0F5100DEC316 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5590A96F2B4C758400D0F855 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5590A9702B4C759900D0F855 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		55FBC6012B43410C0090E946 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		55FBC60C2B43410C0090E946 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				5590A96F2B4C758400D0F855 /* Managers */,
 				5590A96A2B4C704F00D0F855 /* Model */,
 				5590A9662B4C6B8500D0F855 /* Screens */,
 				5590A9672B4C6BBA00D0F855 /* Custom Views */,
@@ -214,6 +225,7 @@
 				55C2987B2B4C0F5100DEC316 /* GFBodyLabel.swift in Sources */,
 				5590A96C2B4C706000D0F855 /* Follower.swift in Sources */,
 				55C298792B4C0DDC00DEC316 /* GFTitleLabel.swift in Sources */,
+				5590A9712B4C759900D0F855 /* NetworkManager.swift in Sources */,
 				55C298772B4C086C00DEC316 /* FollowerListVC.swift in Sources */,
 				55FBC60E2B43410C0090E946 /* AppDelegate.swift in Sources */,
 				55FBC6102B43410C0090E946 /* SceneDelegate.swift in Sources */,
