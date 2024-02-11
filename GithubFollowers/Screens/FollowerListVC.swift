@@ -22,7 +22,7 @@ class FollowerListVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: triue)
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     
